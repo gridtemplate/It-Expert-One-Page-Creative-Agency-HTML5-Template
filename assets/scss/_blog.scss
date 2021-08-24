@@ -1,0 +1,183 @@
+
+
+
+/*===========================
+        11 .BLOG css 
+===========================*/
+
+.blog_area{
+
+    .single_blog{
+        background: $white;
+        border-radius: 10px;
+         box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16); @include transition(0.3s);
+
+
+        .blog_content{
+
+            .main_content{
+                padding: 30px 20px;
+                h4{
+                    font-size: 20px;    line-height: 30px;
+                }
+
+                span.blog_btn a{
+                    color: #B2B2B2;
+                border-bottom: 2px solid #B2B2B2;
+                    padding-right: 0;
+                    padding-left: 0;
+                    border-radius: 0;
+                    @include transition(0.3s);
+
+
+
+                }
+            }
+
+          &:hover{
+
+            span.blog_btn a{
+
+                color: $heading-color;
+                border-bottom: 2px solid $heading-color;
+                 @include transition(0.5s);
+                
+            }
+
+          }
+
+        }
+
+            &:hover {
+               box-shadow: 0 5px 50px 0 rgba(60, 59, 59, 0.16);                @include transition(0.5s);
+              
+            }
+
+
+
+
+    }
+
+}
+
+
+// Blog style version two
+
+
+.blog_area_style2{
+
+    .single_blog{
+        background: $white;
+        border-radius: 10px;
+         box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16); @include transition(0.3s);
+
+
+        .blog_content{
+
+            .main_content{
+                padding: 30px 20px;
+                h4{
+                    font-size: 20px;    line-height: 30px;
+                }
+
+                span.blog_btn a{
+                    color: #B2B2B2;
+                border-bottom: 2px solid #B2B2B2;
+                    padding-right: 0;
+                    padding-left: 0;
+                    border-radius: 0;
+                    @include transition(0.3s);
+
+
+
+                }
+            }
+
+          &:hover{
+
+            span.blog_btn a{
+
+                color: $heading-color;
+                border-bottom: 2px solid#d4145a;
+                 @include transition(0.5s);
+                
+            }
+
+          }
+
+        }
+
+            &:hover {
+               box-shadow: 0 5px 50px 0 rgba(60, 59, 59, 0.16);                @include transition(0.5s);
+              
+            }
+
+
+
+
+    }
+
+}
+
+
+
+// Blog style version three
+
+
+.blog_area_style3{
+
+    .single_blog{
+        background: $white;
+        border-radius: 10px;
+         box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16); @include transition(0.3s);
+
+
+        .blog_content{
+
+            .main_content{
+                padding: 30px 20px;
+                h4{
+                    font-size: 20px;    line-height: 30px;
+                }
+
+                span.blog_btn a{
+                    color: #B2B2B2;
+                border-bottom: 2px solid #B2B2B2;
+                    padding-right: 0;
+                    padding-left: 0;
+                    border-radius: 0;
+                    @include transition(0.3s);
+
+
+
+                }
+            }
+
+          &:hover{
+
+            span.blog_btn a{
+
+                color: $heading-color;
+                border-bottom: 2px solid#5842ff;
+                 @include transition(0.5s);
+                
+            }
+
+          }
+
+        }
+
+            &:hover {
+               box-shadow: 0 5px 50px 0 rgba(60, 59, 59, 0.16);                @include transition(0.5s);
+              
+            }
+
+
+
+
+    }
+
+}
+
+
+

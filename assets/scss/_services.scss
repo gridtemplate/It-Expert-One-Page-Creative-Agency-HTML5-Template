@@ -1,0 +1,138 @@
+
+/*===========================
+    04  SERVICES css 
+===========================*/
+
+
+.services_area{
+
+	position: relative;z-index: 12;
+	.services_row{
+
+-webkit-transform: translateY(-30%);
+    -moz-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    transform: translateY(-30%);
+
+
+	    @media #{$md} {
+-webkit-transform: translateY(-10%);
+    -moz-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    transform: translateY(-10%);
+	    }
+
+	    @media #{$xs} {
+-webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    transform: translateY(-5%);
+	    }
+		.single_service{
+
+			padding: 50px 30px;
+			border-radius: 10px;
+			  box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16);
+			  background-color: #ffffff;
+			    @media #{$md} {
+			         padding: 25px 10px
+			    }
+
+			    @media #{$xs} {
+			         padding: 25px 10px
+			    }
+
+
+			span.icon{
+
+				img{
+
+				}
+			}
+			h5.title{
+			 margin: 30px 0px 20px;
+			  font-size: 25px;
+			  font-weight: 500;
+			  font-stretch: normal;
+			  font-style: normal;
+			  line-height: 1.52;
+	
+			  text-align: center;
+			  color: $heading-color;
+
+			
+			    @media #{$lg} {
+			        font-size: 20px;
+			    }
+			    @media #{$md} {
+			         margin: 20px 0px 10px;font-size: 20px;
+			    }
+
+			    @media #{$xs} {
+			         margin: 20px 0px 10px;font-size: 18px;
+			    }
+
+
+			}
+			p{
+
+			}
+                @include transition(0.3s);
+	      
+	        &:hover {
+	           box-shadow: 0 5px 50px 0 rgba(60, 59, 59, 0.16);                @include transition(0.3s);
+	          
+	        }
+
+		}
+
+
+
+	}
+
+
+
+
+}
+
+
+
+
+
+/*===========================
+      PARTNERS  css 
+===========================*/
+
+
+.parters_area{
+
+	.section_title{
+
+		span{
+			font-size: 30px;
+			color: $heading-color;
+		    @media #{$md} {
+			        font-size: 25px;
+			    }
+
+			    @media #{$xs} {
+			         font-size: 20px;
+			    }
+
+
+		}
+
+
+	}
+
+
+
+
+.slick-slide img {
+    display: inline-block;
+}
+
+
+
+
+}

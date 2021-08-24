@@ -1,0 +1,527 @@
+
+
+
+/*===========================
+      08 CLENT css 
+===========================*/
+
+
+.our_clients{
+
+
+background:$theme-banner-gradient-bg-left;position: relative;
+
+
+
+
+
+         @media #{$md} {
+                height: auto; padding: 80px 0;
+          }
+
+          @media #{$xs} {
+                height: auto; padding: 80px 0;
+          }
+
+          @media #{$sm} {
+                    height: auto; padding: 60px 0;
+          }
+
+        .section_title{
+
+
+            h2.title{
+                color: $white;
+            }
+        }
+
+        .our_clients_slider{
+
+            position: relative;
+                &::before{
+
+                    position: absolute;left: 10px;
+    top: -40px;
+                    width: 40px;height: 35px;content: "";
+                    background: url('../images/icons/arrow-icon.png') no-repeat;
+
+                }
+
+                &::after{
+
+                    position: absolute;right: 25px;
+    bottom: 55%;
+                    width: 40px;height: 35px;content: "";
+                    background: url('../images/icons/arrow-icon.png') no-repeat;
+
+                }
+
+
+
+
+
+
+
+            .client_single_info{
+                p{
+                    color: $white;
+                }
+
+                .media{
+                    img{
+
+                    }
+                }
+                .media-body{
+                    h5{
+                        color: $white;font-size: 25px;font-weight: 500
+                    }
+                    span{
+                         color: $white;font-size: 16px
+                    }
+                }
+            }
+
+            .slick-arrow.slick-next {
+                 i{
+                    font-size: 30px
+                }
+            }
+             .slick-arrow.slick-prev {
+              
+                 right: auto;
+                right: 10px;
+                i{
+                    font-size: 30px
+                }
+            }
+            .slick-arrow {
+                position: absolute;
+                top: 70%;
+                right: 60px;
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                font-size: 16px;
+                color: $white;
+      
+                cursor: pointer;z-index: 12;
+            }
+
+            .slick-slide {
+                outline: none
+            }
+
+
+
+
+
+
+        }
+ 
+
+
+
+
+      &:before {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../images/normal/client_bg.png) no-repeat  right ;
+
+       background-position : calc(100% - 0px) 0;
+
+        }
+
+
+
+
+}
+
+// Testimonials for home version two
+
+.our_clients_style2{
+
+
+background:$white;position: relative;
+
+
+
+
+
+         @media #{$md} {
+                height: auto; padding: 80px 0;
+          }
+
+          @media #{$xs} {
+                height: auto; padding: 80px 0;
+          }
+
+          @media #{$sm} {
+                    height: auto; padding: 60px 0;
+          }
+
+        .section_title{
+
+
+            h2.title{
+                color: $heading-color;
+            }
+        }
+
+        .our_clients_slider_v2{
+
+    //         position: relative;
+    //             &::before{
+
+    //                 position: absolute;left: 10px;
+    // top: -40px;
+    //                 width: 40px;height: 35px;content: "";
+    //                 background: url('../images/icons/arrow-icon.png') no-repeat;
+
+    //             }
+
+    //             &::after{
+
+    //                 position: absolute;right: 25px;
+    // bottom: 55%;
+    //                 width: 40px;height: 35px;content: "";
+    //                 background: url('../images/icons/arrow-icon.png') no-repeat;
+
+    //             }
+
+
+
+
+
+
+
+            .client_single_info{
+                border-radius: 10px;
+                  box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16);
+                  background-color:  $white;padding: 90px 30px 30px 30px;position: relative;
+
+
+                .client_thumb{
+
+                    img{
+                        display: inline-block;text-align: center;margin: 0px auto;
+                         box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16);
+  border: solid 8px $white;border-radius: 200px;    position: absolute;
+    top: -70px;
+    right: 0;
+    left: 0;
+                    }
+
+                    h5{
+                        color: $heading-color;font-size: 25px;font-weight: 500
+                    }
+                    span{
+                         color: $heading-color;font-size: 16px;text-transform: uppercase;
+                    }
+
+
+
+              p{
+                    color: $gray;
+                }
+
+
+                }
+  
+
+            
+
+
+            }
+
+
+            .slick-slide {
+                outline: none
+            }
+
+
+            & .slick-dots{
+                width: 100%;
+                text-align: center;
+                margin-top: 15px;
+                
+                & li{
+                    display: inline-block;
+                    margin: 0 3px;
+                    
+                    & button{
+                            width: 65px;
+    height: 5px;
+                       background: linear-gradient(85deg, rgba(251,176,59,1) 0%, rgba(212,20,90,0.14049369747899154) 72%);
+                       border-radius: 2px;
+                       
+                        font-size: 0;
+                        @include transition(0.3s);
+                        border: none
+                    }
+                    
+                    &.slick-active{
+                        & button{
+                            background: $theme-banner-g-bg-left-style2;
+                        }
+                    }
+                }
+            }
+
+        .rating_list{
+            ul{
+            list-style: outside none none;
+                margin: 0;
+                padding: 0;
+                
+              
+                @media #{$md} {
+                    text-align: center;margin-top: 15px
+                }
+
+                @media #{$xs} {
+                    text-align: center;margin-top: 15px
+                }
+
+
+                li{
+                    display: inline-block;
+                    
+                   
+                    
+                         i{
+                            color:#f08244
+                            
+
+                          
+                          }
+                    
+                }
+            }
+
+        }
+
+
+
+
+
+        }
+ 
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+// Testimonials for home version three
+
+.our_clients_style3{
+
+
+background:$white;position: relative;
+
+
+
+
+
+         @media #{$md} {
+                height: auto; padding: 80px 0;
+          }
+
+          @media #{$xs} {
+                height: auto; padding: 80px 0;
+          }
+
+          @media #{$sm} {
+                    height: auto; padding: 60px 0;
+          }
+
+        .section_title{
+
+
+            h2.title{
+                color: $heading-color;
+            }
+        }
+
+        .our_clients_slider_v2{
+
+    //         position: relative;
+    //             &::before{
+
+    //                 position: absolute;left: 10px;
+    // top: -40px;
+    //                 width: 40px;height: 35px;content: "";
+    //                 background: url('../images/icons/arrow-icon.png') no-repeat;
+
+    //             }
+
+    //             &::after{
+
+    //                 position: absolute;right: 25px;
+    // bottom: 55%;
+    //                 width: 40px;height: 35px;content: "";
+    //                 background: url('../images/icons/arrow-icon.png') no-repeat;
+
+    //             }
+
+
+
+
+
+
+
+            .client_single_info{
+                border-radius: 10px;
+                  box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16);
+                  background-color:  $white;padding: 90px 30px 30px 30px;position: relative;
+
+
+                .client_thumb{
+
+                    img{
+                        display: inline-block;text-align: center;margin: 0px auto;
+                         box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16);
+  border: solid 8px $white;border-radius: 200px;    position: absolute;
+    top: -70px;
+    right: 0;
+    left: 0;
+                    }
+
+                    h5{
+                        color: $heading-color;font-size: 25px;font-weight: 500
+                    }
+                    span{
+                         color: $heading-color;font-size: 16px;text-transform: uppercase;
+                    }
+
+
+
+              p{
+                    color: $gray;
+                }
+
+
+                }
+  
+
+            
+
+
+            }
+
+
+            .slick-slide {
+                outline: none
+            }
+
+
+            & .slick-dots{
+                width: 100%;
+                text-align: center;
+                margin-top: 15px;
+                
+                & li{
+                    display: inline-block;
+                    margin: 0 3px;
+                    
+                    & button{
+                            width: 65px;
+    height: 5px;
+                       background:  linear-gradient(265deg, rgba(140,103,255,0.21332282913165268) 0%, rgba(88,66,255,0.5914740896358543) 82%);
+                       border-radius: 2px;
+                       
+                        font-size: 0;
+                        @include transition(0.3s);
+                        border: none
+                    }
+                    
+                    &.slick-active{
+                        & button{
+                            background: $theme-purple-left-style3
+                        }
+                    }
+                }
+            }
+
+        .rating_list{
+            ul{
+            list-style: outside none none;
+                margin: 0;
+                padding: 0;
+                
+              
+                @media #{$md} {
+                    text-align: center;margin-top: 15px
+                }
+
+                @media #{$xs} {
+                    text-align: center;margin-top: 15px
+                }
+
+
+                li{
+                    display: inline-block;
+                    
+                   
+                    
+                         i{
+                            color:#5842ff 
+                            
+
+                          
+                          }
+                    
+                }
+            }
+
+        }
+
+
+
+
+
+        }
+ 
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+

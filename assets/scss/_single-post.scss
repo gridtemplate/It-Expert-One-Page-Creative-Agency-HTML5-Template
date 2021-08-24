@@ -1,0 +1,784 @@
+  
+ /* ==========================================================================
+   Blog single post section
+   ========================================================================== */
+
+
+// Single Blog Post Section
+
+
+.blog-hero-area {
+    background: url(../images/blog/hero-area.jpg) no-repeat;
+        background-size: auto;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+
+ .contents {
+  padding: 160px 0 140px;
+
+
+      h2{ 
+     color:$white;
+  font-size: 52px;
+  font-weight: 300;
+  margin-bottom: 25px;
+      }
+
+
+ .post-meta {
+    color: $white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    ul{
+
+        li{
+                display: inline-block;
+    margin-right: 8px;
+    margin-left: 8px;color: $white;
+                    a{
+                        color: $white; @include transition(0.3s);
+                        &:hover{
+                            color: $heading-color; @include transition(0.5s);
+                         i {
+                        }
+                    
+                }
+                    }
+                
+
+
+        }
+    }
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.overlay-blog{
+
+  
+    &::before{
+
+        position: absolute;left: 0;right: 0;content: "";
+        width: 100%;height: 100%;background:$theme-banner-gradient-bg-left;opacity: 0.9;
+    }
+}
+.single-blog-section .blog-item-wrapper {
+
+    -webkit-transition: transform .2s linear, -webkit-box-shadow .2s linear;
+    -moz-transition: transform .2s linear, -moz-box-shadow .2s linear;
+    transition: transform .2s linear, box-shadow .2s linear
+}
+
+.single-blog-section .blog-item-wrapper:hover {
+    box-shadow: 0 10px 50px 0 rgba(84, 110, 122, .35);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+
+
+
+
+
+}
+
+
+
+
+
+.single-blog-section {
+
+
+
+
+            #blog-single {
+                padding: 80px 0;
+                background: $gray;
+            }
+
+            #blog-single .blog-post {
+                background: #fff;
+                overflow: hidden;
+                margin-bottom: 40px
+            }
+
+            #blog-single .blog-post .post-thumb img {
+                width: 100%
+            }
+
+            #blog-single .blog-post .post-content {
+                padding: 30px
+            }
+
+            #blog-single .blog-post .post-content h3 {
+                font-size: 30px;
+                padding-bottom: 10px
+            }
+
+            #blog-single .blog-comment {
+                background: $white;
+                padding: 50px 30px;
+                margin-top: 30px;
+                overflow: hidden
+            }
+
+            #blog-single .blog-comment h4 {
+                font-size: 24px;
+                margin-bottom: 30px
+            }
+
+            #blog-single .blog-comment .comment-list {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 50px
+            }
+
+            #blog-single .blog-comment .comment-list .the-comment {
+                border-bottom: 1px solid #e7e6e6;
+                padding-bottom: 25px;
+                margin-bottom: 25px
+            }
+
+            #blog-single .blog-comment .comment-list .children {
+                padding-left: 40px
+            }
+
+            #blog-single .blog-comment .avatar {
+                float: left;
+                margin-right: 15px;
+                padding: 5px;
+                border-radius: 3px;
+                background: $white;
+                border: 1px dashed $theme-color;
+            }
+
+            #blog-single .blog-comment .comment-author {
+                margin-bottom: 10px
+            }
+
+            #blog-single .blog-comment .meta {
+                margin-bottom: 10px;
+                color: $body-color;
+            }
+
+            .blog-hero-area .post-meta {
+                color: $white;
+                margin-top: 15px;
+                margin-bottom: 15px
+            }
+
+            .blog-hero-area .post-meta ul li {
+                display: inline-block;
+                margin-right: 8px;
+                margin-left: 8px
+            }
+
+            .blog-hero-area .post-meta ul li i {
+                margin-right: 5px
+            }
+
+            .blog-hero-area .post-meta ul li a {
+                color: $white;
+            }
+
+            .blog-hero-area .post-meta ul li a:hover {
+                color: $heading-color;
+            }
+
+
+            #blog-single .form-control{
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 15px 30px;
+                font-size: 14px; 
+                border-radius: 5px;
+                border: 1px solid transparent;
+                background: $gray;
+                @include transition(0.3s);
+               
+            }
+            #blog-single input.form-control{
+                  height: 55px;
+                
+               
+            }
+
+            #blog-single .btn-common {
+                background-color: #ff704f;
+                position: relative;
+                z-index: 1;
+                box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+                width: 160px;
+                height: 50px;
+                padding: 14px 15px;
+            }
+            #blog-single .form-control:focus {
+                border: 1px solid $theme-color;
+                outline: none;
+                box-shadow: none
+            }
+
+            #subscribe .form-control {
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 15px 30px;
+                font-size: 14px;
+                border-radius: 5px;
+                border: 1px solid transparent;
+                background: $gray;
+                @include transition(0.3s);
+            }
+            #subscribe input.form-control{
+                  height: 55px;
+                
+               
+            }
+
+            #subscribe .form-control:focus {
+                border: 1px solid $theme-color;
+                outline: none;
+                box-shadow: none
+            }
+
+            .btn.disabled,
+            .btn:disabled {
+                opacity: 1
+            }
+
+            #blog-single  textarea {
+                border-radius: 4px!important
+            }
+            #subscribe textarea {
+                border-radius: 4px!important
+            }
+
+
+            .text-danger {
+                font-size: 14px;
+                margin-top: 10px
+            }
+
+            .list-unstyled li {
+                color: $theme-color;
+            }
+
+
+            #subscribe {
+                background: url(../images/blog/single-bg.jpg)no-repeat center center ;
+             -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+                  background-position: 100%;
+                position: relative
+            }
+
+            .subscribe-form .sub-title {
+                margin-bottom: 30px
+            }
+
+            .subscribe-form .sub-title h3 {
+                font-size: 30px;
+                margin-bottom: 10px;
+                position: relative;
+                font-weight: 500
+            }
+
+            .subscribe-form .form-wrapper {
+                background-color: $white;
+                padding: 58px 40px;
+                border-radius: 4px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, .2)
+            }
+
+            .subscribe-form .form-wrapper .form-group {
+                margin-bottom: 0
+            }
+
+            .subscribe-form .form-wrapper .form-control {
+                display: block;
+                width: 100%;
+                font-size: 14px;
+                box-shadow: none;
+                color: $theme-color;
+                text-transform: capitalize;
+                background: $gray;
+                border: 1px solid transparent;
+                padding: 15px 30px;
+                border-radius: 30px;
+                background-image: none;
+                background-clip: padding-box
+            }
+
+            .subscribe-form .form-wrapper .form-control:focus {
+                color: $heading-color;
+                background-color: $gray;
+                border-color: $theme-color;
+                box-shadow: none;
+                outline: 0
+            }
+
+            .subscribe-form .form-submit .btn {
+                width: 100%;
+                padding: 13px 30px
+            }
+
+            #subscribe .sub-item-box {
+                padding: 30px;
+                margin-bottom: 30px;
+                border-radius: 4px;
+                background: $white;
+            }
+
+            #subscribe .sub-item-box .icon-box {
+                float: left
+            }
+
+            #subscribe .sub-item-box .icon-box i {
+                font-size: 30px;
+                color: $theme-color;
+            }
+
+            #subscribe .sub-item-box .text-box {
+                margin-left: 60px
+            }
+
+            #subscribe .sub-item-box .text-box h4 {
+                font-size: 16px;
+                font-weight: 500
+            }
+
+            #subscribe .sub-item-box .text-box p {
+                margin-bottom: 0
+            }
+
+            #subscribe .sub-item-box:last-child {
+                margin-bottom: 0
+            }
+
+            #subscribe .btn-common {
+                background-color: #ff704f;
+                position: relative;
+                z-index: 1;
+                box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+                width: 100%;
+                height: 50px;
+                padding: 14px 15px;
+            }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Single Blog Post Section - Home version two
+
+
+
+.blog-hero-area-style2 {
+    background: url(../images/blog/hero-area.jpg) no-repeat;
+        background-size: auto;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+
+ .contents {
+  padding: 160px 0 140px;
+
+
+      h2{ 
+     color:$white;
+  font-size: 52px;
+  font-weight: 300;
+  margin-bottom: 25px;
+      }
+
+
+ .post-meta {
+    color: $white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    ul{
+
+        li{
+                display: inline-block;
+    margin-right: 8px;
+    margin-left: 8px;color: $white;
+                    a{
+                        color: $white; @include transition(0.3s);
+                        &:hover{
+                            color: $heading-color; @include transition(0.5s);
+                         i {
+                        }
+                    
+                }
+                    }
+                
+
+
+        }
+    }
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.overlay-blog{
+
+  
+    &::before{
+
+        position: absolute;left: 0;right: 0;content: "";
+        width: 100%;height: 100%;background:$theme-banner-g-bg-left-style2;opacity: 0.9;
+    }
+}
+.single-blog-section .blog-item-wrapper {
+
+    -webkit-transition: transform .2s linear, -webkit-box-shadow .2s linear;
+    -moz-transition: transform .2s linear, -moz-box-shadow .2s linear;
+    transition: transform .2s linear, box-shadow .2s linear
+}
+
+.single-blog-section .blog-item-wrapper:hover {
+    box-shadow: 0 10px 50px 0 rgba(84, 110, 122, .35);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+
+
+
+
+
+}
+
+
+
+
+.single-blog-section_style2 {
+
+
+
+
+            #blog-single {
+                padding: 80px 0;
+                background: $gray;
+            }
+
+            #blog-single .blog-post {
+                background: #fff;
+                overflow: hidden;
+                margin-bottom: 40px
+            }
+
+            #blog-single .blog-post .post-thumb img {
+                width: 100%
+            }
+
+            #blog-single .blog-post .post-content {
+                padding: 30px
+            }
+
+            #blog-single .blog-post .post-content h3 {
+                font-size: 30px;
+                padding-bottom: 10px
+            }
+
+            #blog-single .blog-comment {
+                background: $white;
+                padding: 50px 30px;
+                margin-top: 30px;
+                overflow: hidden
+            }
+
+            #blog-single .blog-comment h4 {
+                font-size: 24px;
+                margin-bottom: 30px
+            }
+
+            #blog-single .blog-comment .comment-list {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 50px
+            }
+
+            #blog-single .blog-comment .comment-list .the-comment {
+                border-bottom: 1px solid #e7e6e6;
+                padding-bottom: 25px;
+                margin-bottom: 25px
+            }
+
+            #blog-single .blog-comment .comment-list .children {
+                padding-left: 40px
+            }
+
+            #blog-single .blog-comment .avatar {
+                float: left;
+                margin-right: 15px;
+                padding: 5px;
+                border-radius: 3px;
+                background: $white;
+                border: 1px dashed $theme-color;
+            }
+
+            #blog-single .blog-comment .comment-author {
+                margin-bottom: 10px
+            }
+
+            #blog-single .blog-comment .meta {
+                margin-bottom: 10px;
+                color: $body-color;
+            }
+
+            .blog-hero-area .post-meta {
+                color: $white;
+                margin-top: 15px;
+                margin-bottom: 15px
+            }
+
+            .blog-hero-area .post-meta ul li {
+                display: inline-block;
+                margin-right: 8px;
+                margin-left: 8px
+            }
+
+            .blog-hero-area .post-meta ul li i {
+                margin-right: 5px
+            }
+
+            .blog-hero-area .post-meta ul li a {
+                color: $white;
+            }
+
+            .blog-hero-area .post-meta ul li a:hover {
+                color: $heading-color;
+            }
+
+
+            #blog-single .form-control{
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 15px 30px;
+                font-size: 14px; 
+                border-radius: 5px;
+                border: 1px solid transparent;
+                background: $gray;
+                @include transition(0.3s);
+               
+            }
+            #blog-single input.form-control{
+                  height: 55px;
+                
+               
+            }
+
+            #blog-single .btn-common {
+                background-color: #ff704f;
+                position: relative;
+                z-index: 1;
+                box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+                width: 160px;
+                height: 50px;
+                padding: 14px 15px;
+            }
+            #blog-single .form-control:focus {
+                border: 1px solid #d4145a;
+                outline: none;
+                box-shadow: none
+            }
+
+            #subscribe .form-control {
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 15px 30px;
+                font-size: 14px;
+                border-radius: 5px;
+                border: 1px solid transparent;
+                background: $gray;
+                @include transition(0.3s);
+            }
+            #subscribe input.form-control{
+                  height: 55px;
+                
+               
+            }
+
+            #subscribe .form-control:focus {
+                border: 1px solid #d4145a;
+                outline: none;
+                box-shadow: none
+            }
+
+            .btn.disabled,
+            .btn:disabled {
+                opacity: 1
+            }
+
+            #blog-single  textarea {
+                border-radius: 4px!important
+            }
+            #subscribe textarea {
+                border-radius: 4px!important
+            }
+
+
+            .text-danger {
+                font-size: 14px;
+                margin-top: 10px
+            }
+
+            .list-unstyled li {
+                color: $theme-color;
+            }
+
+
+            #subscribe {
+                background: url(../images/blog/single-bg.jpg)no-repeat center center ;
+             -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+                  background-position: 100%;
+                position: relative
+            }
+
+            .subscribe-form .sub-title {
+                margin-bottom: 30px
+            }
+
+            .subscribe-form .sub-title h3 {
+                font-size: 30px;
+                margin-bottom: 10px;
+                position: relative;
+                font-weight: 500
+            }
+
+            .subscribe-form .form-wrapper {
+                background-color: $white;
+                padding: 58px 40px;
+                border-radius: 4px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, .2)
+            }
+
+            .subscribe-form .form-wrapper .form-group {
+                margin-bottom: 0
+            }
+
+            .subscribe-form .form-wrapper .form-control {
+                display: block;
+                width: 100%;
+                font-size: 14px;
+                box-shadow: none;
+                color: $theme-color;
+                text-transform: capitalize;
+                background: $gray;
+                border: 1px solid transparent;
+                padding: 15px 30px;
+                border-radius: 30px;
+                background-image: none;
+                background-clip: padding-box
+            }
+
+            .subscribe-form .form-wrapper .form-control:focus {
+                color: $heading-color;
+                background-color: $gray;
+                border-color: $theme-color;
+                box-shadow: none;
+                outline: 0
+            }
+
+            .subscribe-form .form-submit .btn {
+                width: 100%;
+                padding: 13px 30px
+            }
+
+            #subscribe .sub-item-box {
+                padding: 30px;
+                margin-bottom: 30px;
+                border-radius: 4px;
+                background: $white;
+            }
+
+            #subscribe .sub-item-box .icon-box {
+                float: left
+            }
+
+            #subscribe .sub-item-box .icon-box i {
+                font-size: 30px;
+                color: $theme-color;
+            }
+
+            #subscribe .sub-item-box .text-box {
+                margin-left: 60px
+            }
+
+            #subscribe .sub-item-box .text-box h4 {
+                font-size: 16px;
+                font-weight: 500
+            }
+
+            #subscribe .sub-item-box .text-box p {
+                margin-bottom: 0
+            }
+
+            #subscribe .sub-item-box:last-child {
+                margin-bottom: 0
+            }
+
+            #subscribe .btn-common {
+                background-color: #ff704f;
+                position: relative;
+                z-index: 1;
+                box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+                width: 100%;
+                height: 50px;
+                padding: 14px 15px;
+            }
+
+    
+}

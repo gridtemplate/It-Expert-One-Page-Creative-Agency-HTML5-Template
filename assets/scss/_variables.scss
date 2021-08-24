@@ -1,0 +1,72 @@
+// Font Family
+$font-1: 'Roboto', sans-serif;
+$font-2: 'Poppins', sans-serif;
+
+
+// Colors ---------------
+$white: #fff;
+$black: #222;
+$gray:#F3F3F3;
+
+
+// Theme Color
+$theme-gray-bg: #F3F3F3;
+$theme-banner-gradient-bg-left: linear-gradient(241deg, #2e3192, #1bffff);
+$theme-gradient-bg-left: linear-gradient(69deg, #2e3192 0%, #1bffff 101%);
+$theme-gradient-bg-right:linear-gradient(111deg, rgba(46,49,146,1) 0%, rgba(27,255,255,1) 50%);
+$theme-gradient-img: linear-gradient(to bottom, #2e3192, #1bffff);
+$theme-gradient-img2: linear-gradient(111deg, #2e3192 1%, #1bffff 99%);
+$theme-color: #2E3192;
+
+
+// Version two variable 
+$theme-banner-g-bg-left-style2: linear-gradient(71deg, #d4145a, #fbb03b 100%);
+$theme-banner-g-bg-right-style2:  linear-gradient(85deg, rgba(251,176,59,1) 0%, rgba(212,20,90,1) 72%);
+$theme-banner-g-bg-top-style2: linear-gradient(0deg, rgba(251,176,59,1) 0%, rgba(212,20,90,1) 72%);
+$theme-banner-g-bg-bottom-style2: linear-gradient(176deg, rgba(251,176,59,1) 0%, rgba(212,20,90,1) 72%);
+
+
+
+// Version three variable 
+$theme-purple-left-style3:  linear-gradient( -135deg, rgb(140,103,255) 0%, rgb(88,66,255) 100%);
+$theme-purple-right-style3:  linear-gradient(80deg, rgba(140,103,255,1) 0%, rgba(88,66,255,1) 72%);
+$theme-purple-top-style3:  linear-gradient(360deg, rgba(140,103,255,1) 0%, rgba(88,66,255,1) 72%);
+$theme-purple-bottom-style3:  linear-gradient(180deg, rgba(140,103,255,1) 0%, rgba(88,66,255,1) 35%);
+
+
+
+
+
+
+
+
+
+
+//Body Color
+$body-color: #B2B2B2;
+
+
+
+// Border Color
+$border-color:#fff;
+
+
+// Heading Color
+$heading-color: #1C2855;
+
+
+// Soft color
+//$black-soft:#7e7e7e;
+
+
+// Responsive Variables
+$desktop: 'only screen and (min-width: 1400px)';
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1399px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+
+
+
+

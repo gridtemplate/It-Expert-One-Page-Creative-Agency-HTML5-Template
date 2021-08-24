@@ -1,0 +1,112 @@
+
+/*===========================
+    05  EXPERIENCE css 
+===========================*/
+
+
+.experience_area{
+
+
+	.experience_thumb{
+		position: relative;
+		.prev_image{
+
+			img{
+			border-radius: 10px;
+		  box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16);display: block;
+		    padding: 10px;
+		    background: $white;
+			}
+
+		}
+		.float_thumb{
+
+			img{
+				position: absolute;bottom: -110px;border-radius: 5px;
+  box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16); padding: 10px;
+		    background: $white;left: -106px;
+			    @media #{$lg} {
+			        left: 0px;position: static;margin-top: 10px;
+			    }
+			    @media #{$md} {
+			        left: 0px;position: static;margin-top: 10px;margin-bottom: 10px
+			    }
+
+			    @media #{$xs} {
+			        left: 0px;position: static;margin-top: 10px;margin-bottom: 10px
+			    }
+
+
+
+			}
+		}
+	}
+
+
+	.experience_title{
+
+		h2{
+			font-size: 40px;
+
+			    @media #{$lg} {
+			         font-size: 30px;
+			    }
+			    @media #{$md} {
+			         font-size: 30px;
+			    }
+
+			    @media #{$xs} {
+			        font-size: 25px;
+			    }
+
+
+
+		}
+		p{
+
+		}
+	}
+
+
+
+	.ex_info{
+
+			    @media #{$md} {
+		 			margin-top: 20px;
+			    }
+
+			    @media #{$xs} {
+					margin-top: 20px;
+			    }
+
+
+		span.icon{
+
+		}
+		h5{
+		 font-size: 25px;
+		  font-weight: 500; margin: 25px 0;
+
+
+			    @media #{$md} {
+		 font-size: 20px;
+		  font-weight: 500; margin: 20px 0;
+			    }
+
+			    @media #{$xs} {
+		 font-size: 18px;
+		  font-weight: 500; margin: 15px 0;
+			    }
+
+
+		}
+		p{
+
+		}
+	}
+
+
+
+
+
+}

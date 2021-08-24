@@ -1,0 +1,508 @@
+
+
+
+/*===========================
+        12 .CONACT css 
+===========================*/
+
+
+.contact_area{
+    position: relative;z-index: 12;
+
+    .contact_row{
+    	position: relative;
+        background: $heading-color;
+         border-radius: 10px;
+          border: solid 10px $white;
+          padding: 150px 160px 80px 160px;
+-webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
+
+        @media #{$lg}{
+            padding: 50px 60px 50px 60px;
+        }
+        @media #{$md}{
+            padding: 50px 60px 50px 60px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+            
+        }
+        @media #{$xs}{
+           padding: 30px 10px 30px 10px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+
+        }
+        @media #{$sm}{
+           padding: 30px 10px 30px 10px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+
+        }
+
+
+    	.section_title{
+    		h2.title{
+    			color: $white;
+    		}
+    	}
+    	.col_info{
+    		position: relative;
+			        @media #{$md}{
+			            margin-bottom: 15px
+			        }
+			        @media #{$xs}{
+			            margin-bottom: 15px
+			        }
+
+    		&::before{
+			    content: "";
+			    background:  $white;
+			    opacity: 0.2;
+			    border-radius: 5px;
+			    width: 100%;
+			    height: 81%;
+			    position: absolute;
+		
+			        @media #{$md}{
+			            height:100%;left: 0;
+			        }
+			        @media #{$xs}{
+			            height:100%;left: 0;
+			        }
+    		}
+
+    		.contact_info{
+    			padding: 22px 25px;
+			        @media #{$lg}{
+			            padding: 22px 15px;
+			        }
+			        @media #{$md}{
+			            padding: 22px 15px;
+			        }
+			        @media #{$xs}{
+			            padding: 22px 15px;
+			        }
+        
+  					
+
+    		}
+
+  			.single_info{
+
+
+  				.info_icon{
+  					img{
+			        @media #{$lg}{
+			            width: 50%;
+			        }
+			        @media #{$md}{
+			           width: 50%;
+			        }
+			        @media #{$xs}{
+			           width: 50%;
+			        }
+        
+  					}
+  				}
+  				.info_content{
+  					p{
+  							color: $white;
+  					}
+  				}
+
+  			}
+    	}
+
+      &:before {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../images/normal/contact_bg.png) no-repeat  right ;
+
+       background-position : calc(100% - 0px) 0;
+
+        }
+
+		.single_form{
+		    & textarea,
+		    & input{
+		        width: 100%;
+		        height: 55px;
+		        border: 1px solid $border-color;
+		        border-radius: 5px;
+		        padding: 0 25px;
+		        color: $body-color;
+		        font-size: 16px;
+		    }
+		    
+		    & textarea{
+		        height: 150px;
+		        padding-top: 15px;
+		        resize: none;
+		        border-radius: 5px;
+		    }
+		}
+
+
+        .contact_form{
+
+          .row{
+              @media #{$xs}{
+                padding-right: 0px;padding-left: 0px
+              }
+              @media #{$sm}{
+                padding-right: 0px;padding-left: 0px
+              }
+          }
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+}
+
+
+
+// Contact form for Two home version
+
+
+.contact_area{
+    position: relative;z-index: 12;
+
+    .contact_row_style2{
+      position: relative;
+ padding: 59px 30px 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16);
+  background-color: $white;
+-webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
+
+        @media #{$lg}{
+            padding: 50px 60px 50px 60px;
+        }
+        @media #{$md}{
+            padding: 50px 60px 50px 60px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+            
+        }
+        @media #{$xs}{
+           padding: 50px 60px 50px 60px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+
+        }
+
+
+      .section_title{
+        h2.title{
+          color: $heading-color;
+        }
+      }
+      .col_info{
+        position: relative;
+              @media #{$md}{
+                  margin-bottom: 15px
+              }
+              @media #{$xs}{
+                  margin-bottom: 15px
+              }
+
+        &::before{
+          content: "";
+          background:  $white;
+          opacity: 0.2;
+          border-radius: 5px;
+          width: 100%;
+          height: 81%;
+          position: absolute;
+    
+              @media #{$md}{
+                  height:100%;left: 0;
+              }
+              @media #{$xs}{
+                  height:100%;left: 0;
+              }
+        }
+
+        .contact_info{
+          padding: 22px 25px;
+              @media #{$lg}{
+                  padding: 22px 15px;
+              }
+              @media #{$md}{
+                  padding: 22px 15px;
+              }
+              @media #{$xs}{
+                  padding: 22px 15px;
+              }
+        
+            
+
+        }
+
+        .single_info{
+
+
+          .info_icon{
+            img{
+              @media #{$lg}{
+                  width: 50%;
+              }
+              @media #{$md}{
+                 width: 50%;
+              }
+              @media #{$xs}{
+                 width: 50%;
+              }
+        
+            }
+          }
+          .info_content{
+            p{
+                color: $white;
+            }
+          }
+
+        }
+      }
+
+      &:before {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../images/normal/contact_bg.png) no-repeat  right ;
+
+       background-position : calc(100% - 0px) 0;
+
+        }
+
+    .single_form{
+        & textarea,
+        & input{
+            width: 100%;
+            height: 55px;
+            border: 1px solid #d4145a;
+            border-radius: 5px;
+            padding: 0 25px;
+            color: $body-color;
+            font-size: 16px;
+        }
+        
+        & textarea{
+            height: 150px;
+            padding-top: 15px;
+            resize: none;
+            border-radius: 5px;
+        }
+    }
+
+
+
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+// Contact form for Three home version
+
+
+.contact_area{
+    position: relative;z-index: 12;
+
+    .contact_row_style3{
+      position: relative;
+ padding: 59px 30px 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16);
+  background-color: $white;
+-webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
+
+        @media #{$lg}{
+            padding: 50px 60px 50px 60px;
+        }
+        @media #{$md}{
+            padding: 50px 60px 50px 60px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+            
+        }
+        @media #{$xs}{
+           padding: 50px 60px 50px 60px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+
+        }
+
+
+      .section_title{
+        h2.title{
+          color: $heading-color;
+        }
+      }
+      .col_info{
+        position: relative;
+              @media #{$md}{
+                  margin-bottom: 15px
+              }
+              @media #{$xs}{
+                  margin-bottom: 15px
+              }
+
+        &::before{
+          content: "";
+          background:  $white;
+          opacity: 0.2;
+          border-radius: 5px;
+          width: 100%;
+          height: 81%;
+          position: absolute;
+    
+              @media #{$md}{
+                  height:100%;left: 0;
+              }
+              @media #{$xs}{
+                  height:100%;left: 0;
+              }
+        }
+
+        .contact_info{
+          padding: 22px 25px;
+              @media #{$lg}{
+                  padding: 22px 15px;
+              }
+              @media #{$md}{
+                  padding: 22px 15px;
+              }
+              @media #{$xs}{
+                  padding: 22px 15px;
+              }
+        
+            
+
+        }
+
+        .single_info{
+
+
+          .info_icon{
+            img{
+              @media #{$lg}{
+                  width: 50%;
+              }
+              @media #{$md}{
+                 width: 50%;
+              }
+              @media #{$xs}{
+                 width: 50%;
+              }
+        
+            }
+          }
+          .info_content{
+            p{
+                color: $white;
+            }
+          }
+
+        }
+      }
+
+      &:before {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../images/normal/contact_bg.png) no-repeat  right ;
+
+       background-position : calc(100% - 0px) 0;
+
+        }
+
+    .single_form{
+        & textarea,
+        & input{
+            width: 100%;
+            height: 55px;
+            border: 1px solid #5842ff;
+            border-radius: 5px;
+            padding: 0 25px;
+            color: $body-color;
+            font-size: 16px;
+        }
+        
+        & textarea{
+            height: 150px;
+            padding-top: 15px;
+            resize: none;
+            border-radius: 5px;
+        }
+    }
+
+
+
+    }
+
+
+
+
+
+
+
+}
+
+
+
+

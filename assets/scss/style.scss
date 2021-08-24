@@ -1,0 +1,44 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: It Expert || Expert IT Solutions For Digital Technology
+    Template URI: https://gridtemplate.com/
+    Description: It Expert || Expert IT Solutions For Digital Technology
+    Author: Gridtemplate
+    Author URI: https://gridtemplate.com/
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01. Theme default CSS
+	02. Header
+    03. services
+	04. experience
+    05. offers
+    06. portfolio
+    07. client
+    08. counter
+    09. team
+    10. blog
+    11. contact
+    12. footer
+-----------------------------------------------------------------------------------*/
+
+@import 'variables';
+@import 'mixin';
+@import 'common';
+@import 'header';
+@import 'about_us';
+@import 'services';
+@import 'experience';
+@import 'offers';
+@import 'portfolio';
+@import 'client';
+@import 'counter';
+@import 'team';
+@import 'blog';
+@import 'single-post';
+@import 'contact';
+@import 'footer';

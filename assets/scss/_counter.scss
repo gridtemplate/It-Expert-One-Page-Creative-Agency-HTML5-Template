@@ -1,0 +1,436 @@
+
+
+/*===========================
+     09 COUNTER css 
+===========================*/
+
+
+.counter_area{
+
+
+	background: #1C2855;
+
+
+	.single_counter{
+			        @media #{$md}{
+						margin-bottom: 20px;
+
+			        }
+			        @media #{$xs}{
+			          margin-bottom: 20px;
+			        }
+			        @media #{$sm}{
+			          margin-bottom: 20px;
+			        }
+		span{
+			i{
+				color: $white;font-size:35px
+			}
+		}
+
+		h3.title{
+			color: $white;font-size: 40px;font-weight: 500
+		}
+		p{
+			color: $white;font-size: 24px;font-family: $font-1;
+		}
+	}
+
+
+
+}
+
+
+// Counter for Home two version
+
+
+
+
+.counter_style2{
+
+
+ background: $theme-banner-g-bg-left-style2;position: relative;z-index: 12;
+height: 670px;
+
+    @media #{$xs}{
+      height: auto;    margin-top: 30px;padding-bottom: 100px
+    }
+    @media #{$sm}{
+      height: auto; margin-top: 20px;padding-bottom: 100px
+    }
+    &::before{
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../images/normal/counter_shape.png) no-repeat  left  bottom;
+
+         background-position: 0% 100%;
+    }
+
+
+
+.counter_v2{
+
+-webkit-transform: translateY(330px);
+    -moz-transform: translateY(330px);
+    -ms-transform: translateY(330px);
+    transform: translateY(330px);
+
+
+	        @media #{$lg}{
+-webkit-transform: translateY(260px);
+    -moz-transform: translateY(260px);
+    -ms-transform: translateY(260px);
+    transform: translateY(260px);
+
+	        }
+	        @media #{$md}{
+-webkit-transform: translateY(215px);
+    -moz-transform: translateY(215px);
+    -ms-transform: translateY(215px);
+    transform: translateY(215px);
+
+	        }
+	        @media #{$xs}{
+		-webkit-transform: translateY(30px);
+		    -moz-transform: translateY(30px);
+		    -ms-transform: translateY(30px);
+		    transform: translateY(30px);	        }
+	        @media #{$sm}{
+		-webkit-transform: translateY(30px);
+		    -moz-transform: translateY(30px);
+		    -ms-transform: translateY(30px);
+		    transform: translateY(30px);	
+	        }
+
+	.single_counter{
+
+        @media #{$md}{
+			margin-bottom: 20px;
+
+        }
+        @media #{$xs}{
+          margin-bottom: 20px;
+        }
+        @media #{$sm}{
+          margin-bottom: 20px;
+        }
+
+
+		span{
+			i{
+				color: $white;font-size:35px
+			}
+		}
+
+		h3.title{
+			color: $white;font-size: 40px;font-weight: 500
+		}
+		p{
+			color: $white;font-size: 24px;font-family: $font-1;
+		}
+	}
+}
+
+
+
+
+
+
+
+	.video_image{
+		position: absolute;
+		    z-index: 12;
+		    top: -320px;
+		    text-align: center;
+		    left: 0;
+		    right: 0;
+
+			    @media #{$xs}{
+			      position: static;top: 0px;
+			    }
+			    @media #{$sm}{
+			       position: static;top: 0px;
+			    }
+
+
+	    
+	    & img{
+	        width: 100%;
+	        border-radius: 10px;border:10px solid$white;
+	    }
+	    
+	    & .video_play{
+	        position: absolute;
+	        top: 50%;
+	        left: 50%;
+	        width: 80px;
+	        height: 80px;
+	        line-height: 55px;
+	        border-radius: 5px;
+	        background: $theme-banner-g-bg-top-style2;
+	        color: $white;
+	        font-size: 18px;
+	        text-align: center;
+	        @include transform(translate(-50%, -50%));
+	        cursor: pointer;@include transition(0.3s);
+
+		      &::before{
+		      box-shadow: 0 5px 50px 0 rgba(60, 59, 59, 0.16); 
+	          @include transition(0.5s);background:$theme-banner-g-bg-bottom-style2;
+	           position: absolute;left: 0;right: 0;width: 100%;height: 100%;content: "";opacity: 0; color: $white;
+	           top:0; z-index: -1;border-radius: 3px;
+
+		      }
+		      &:hover::before{
+		     opacity: .8;
+					 visibility: visible;
+
+
+		      }
+		      &:hover{
+		      	color: $heading-color !important;
+		      }
+
+		      i{
+		      	padding-top: 30px
+		      }
+
+	        
+	    }
+	}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+// Video Modal Area
+
+.video_area_modal{
+
+
+
+
+
+
+.modal-dialog {
+    max-width: 60%;
+    margin: 1.75rem auto;
+}
+
+
+
+
+
+}
+
+// Counter for Home three version
+
+
+
+
+.counter_style3{
+
+
+ background: $theme-purple-left-style3;position: relative;z-index: 12;
+height: 670px;
+
+    @media #{$xs}{
+      height: auto;    margin-top: 30px;padding-bottom: 100px
+    }
+    @media #{$sm}{
+      height: auto; margin-top: 20px;padding-bottom: 100px
+    }
+    &::before{
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../images/normal/counter_shape.png) no-repeat  left  bottom;
+
+         background-position: 0% 100%;
+    }
+
+
+
+.counter_v2{
+
+-webkit-transform: translateY(330px);
+    -moz-transform: translateY(330px);
+    -ms-transform: translateY(330px);
+    transform: translateY(330px);
+
+
+	        @media #{$lg}{
+-webkit-transform: translateY(260px);
+    -moz-transform: translateY(260px);
+    -ms-transform: translateY(260px);
+    transform: translateY(260px);
+
+	        }
+	        @media #{$md}{
+-webkit-transform: translateY(215px);
+    -moz-transform: translateY(215px);
+    -ms-transform: translateY(215px);
+    transform: translateY(215px);
+
+	        }
+	        @media #{$xs}{
+		-webkit-transform: translateY(30px);
+		    -moz-transform: translateY(30px);
+		    -ms-transform: translateY(30px);
+		    transform: translateY(30px);	        }
+	        @media #{$sm}{
+		-webkit-transform: translateY(30px);
+		    -moz-transform: translateY(30px);
+		    -ms-transform: translateY(30px);
+		    transform: translateY(30px);	
+	        }
+
+	.single_counter{
+
+        @media #{$md}{
+			margin-bottom: 20px;
+
+        }
+        @media #{$xs}{
+          margin-bottom: 20px;
+        }
+        @media #{$sm}{
+          margin-bottom: 20px;
+        }
+
+
+		span{
+			i{
+				color: $white;font-size:35px
+			}
+		}
+
+		h3.title{
+			color: $white;font-size: 40px;font-weight: 500
+		}
+		p{
+			color: $white;font-size: 24px;font-family: $font-1;
+		}
+	}
+}
+
+
+
+
+
+
+
+	.video_image{
+		position: absolute;
+		    z-index: 12;
+		    top: -320px;
+		    text-align: center;
+		    left: 0;
+		    right: 0;
+
+			    @media #{$xs}{
+			      position: static;top: 0px;
+			    }
+			    @media #{$sm}{
+			       position: static;top: 0px;
+			    }
+
+
+	    
+	    & img{
+	        width: 100%;
+	        border-radius: 10px;border:10px solid$white;
+	    }
+	    
+	    & .video_play{
+	        position: absolute;
+	        top: 50%;
+	        left: 50%;
+	        width: 80px;
+	        height: 80px;
+	        line-height: 55px;
+	        border-radius: 5px;
+	        background: $theme-purple-top-style3;
+	        color: $white;
+	        font-size: 18px;
+	        text-align: center;
+	        @include transform(translate(-50%, -50%));
+	        cursor: pointer;@include transition(0.3s);
+
+		      &::before{
+		      box-shadow: 0 5px 50px 0 rgba(60, 59, 59, 0.16); 
+	          @include transition(0.5s);background:$theme-purple-bottom-style3;
+	           position: absolute;left: 0;right: 0;width: 100%;height: 100%;content: "";opacity: 0; color: $white;
+	           top:0; z-index: -1;border-radius: 3px;
+
+		      }
+		      &:hover::before{
+		     opacity: .8;
+					 visibility: visible;
+
+
+		      }
+		      &:hover{
+		      	color: $heading-color !important;
+		      }
+
+		      i{
+		      	padding-top: 30px
+		      }
+
+	        
+	    }
+	}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+// Video Modal Area
+
+.video_area_modal{
+
+
+
+
+
+
+.modal-dialog {
+    max-width: 60%;
+    margin: 1.75rem auto;
+}
+
+
+
+
+
+}

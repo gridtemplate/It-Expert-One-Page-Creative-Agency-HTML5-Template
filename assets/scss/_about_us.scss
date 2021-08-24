@@ -1,0 +1,83 @@
+/*===========================
+  02 About us css 
+===========================*/
+
+.about_style2{
+
+
+.about_style2_thmb{
+
+		img{
+	        @media #{$md}{
+				width: 100%;margin: 0px auto
+	        }
+	        @media #{$xs}{
+				width: 100%;margin: 0px auto
+	        }
+		}
+
+
+}
+
+
+
+
+
+
+
+
+.custom_col_float{
+position: relative;
+
+	.custom_row_float{
+	 padding: 60px 43px 60px 40px;
+	  border-radius: 10px;
+	  box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16);
+	  background-color: $white;
+
+	-webkit-transform: translateX(-20%);
+	    -moz-transform: translateX(-20%);
+	    -ms-transform: translateX(-20%);
+	    transform: translateX(-20%);
+
+       
+        @media #{$md}{
+	-webkit-transform: translateY(-15%);
+	    -moz-transform: translateY(-15%);
+	    -ms-transform: translateY(-15%);
+	    transform: translateY(-15%);
+        }
+        @media #{$xs}{
+	-webkit-transform: translateY(-3%);
+	    -moz-transform: translateY(-3%);
+	    -ms-transform: translateY(-3%);
+	    transform: translateY(-3%); padding: 30px 20px 30px 20px;
+        }
+
+		.about_info_style2{
+
+			h5{
+				font-size: 25px
+			}
+
+
+		}
+
+
+	}
+
+
+
+}
+	
+
+
+
+
+
+
+
+
+
+
+}
